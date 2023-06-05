@@ -1,6 +1,6 @@
-This repository contains the code used to generate the analysis in the paper "Bayesian Spatial Modeling of Mortality and Fine Particulate Air Matter Pollution in Massachusetts at the Zip Code Level". 
+This repository contains the code used to generate the analysis for the manuscript "Bayesian Spatial Modeling of Mortality and Fine Particulate Air Matter Pollution in Massachusetts at the Zip Code Level". 
 
-The files Data_processing.R produce shapefiles of MA for the analyses of the overall and stratified by age and sex populations merged with death outcomes from the Medicare Master Beneficiary Summary File (MBSF) merged with covariates from the US Census and the Behavioral Risk Factor Surveillance System and PM2.5 estimates from Di et al. (2019). 
+The files Data_processing.R produce shapefiles of MA for the analyses of the overall population and the populations stratified by age and sex merged with death outcomes from the Medicare Master Beneficiary Summary File (MBSF), covariates from the US Census and the Behavioral Risk Factor Surveillance System, and PM2.5 estimates from Di et al. (2019). 
   
 
 Model_data_overall.R and Model_data_strat.R process the shapefiles to create a weight matrix and precompute the scaling factor for the BYM2 model and are run before the models.
